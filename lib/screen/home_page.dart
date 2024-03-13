@@ -29,6 +29,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
       duration: const Duration(milliseconds: 600),
     );
     animationController.forward();
+    //
 
     rightToLeft =
         Tween<Offset>(begin: const Offset(0.5, 0.0), end: const Offset(0, 0))
